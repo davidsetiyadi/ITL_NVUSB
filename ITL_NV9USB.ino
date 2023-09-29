@@ -1,5 +1,5 @@
 /*
-  SerialPassthrough sketch
+  Serial Read from ITL NVUSB sketch
 
   Some boards, like the Arduino 101, the MKR1000, Zero, or the Micro, have one
   hardware serial port attached to Digital pins 0-1, and a separate USB serial
@@ -12,14 +12,9 @@
   you type in the IDE Serial monitor will be written out to the serial port on
   Digital pins 0 and 1, and vice-versa.
 
-  On the 101, MKR1000, Zero, and Micro, "Serial" refers to the USB Serial port
-  attached to the Serial Monitor, and "Serial1" refers to the hardware serial
-  port attached to pins 0 and 1. This sketch will emulate Serial passthrough
-  using those two Serial ports on the boards mentioned above, but you can change
-  these names to connect any two serial ports on a board that has multiple ports.
 
-  created 23 May 2016
-  by Erik Nyquist
+  created 29 Sept 2023
+  by David Setiyadi
 
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/SerialPassthrough
   https://www.youtube.com/watch?v=M2E2yWcKJfc&t=463s #billacceptor-
